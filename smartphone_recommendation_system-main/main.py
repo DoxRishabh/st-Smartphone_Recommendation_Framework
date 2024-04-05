@@ -43,7 +43,7 @@ def recommend(phone):
         recommend_features.append(fetch_features(smartphone_features))
     return recommended_phone,recommend_features
 
-smartphone_list=pickle.load(open('https://github.com/DoxRishabh/st-Smartphone_Recommendation_Framework/blob/8de7f15b6f3ee624e07a9ebeeba40beca5e6f9d4/smartphone_recommendation_system-main/smartphone.pkl','rb'))
+smartphone_list=pickle.load(open('./st-Smartphone_Recommendation_Framework/smartphone_recommendation_system-main/smartphone.pkl','rb'))
 
 similarity=pickle.load(open('.\similarity1.pkl','rb'))
 smartphone=pd.DataFrame(smartphone_list)
