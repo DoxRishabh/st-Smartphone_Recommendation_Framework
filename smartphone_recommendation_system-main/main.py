@@ -45,7 +45,7 @@ def recommend(phone):
 
 smartphone_list=pickle.load(open('smartphone_recommendation_system-main/smartphone.pkl','rb'))
 
-similarity=pickle.load(open('.\similarity1.pkl','rb'))
+similarity=pickle.load(open('smartphone_recommendation_system-main/similarity1.pkl','rb'))
 smartphone=pd.DataFrame(smartphone_list)
 
 #sam=pickle.load(open('smartphone_recommendation_system-main\smartphone.pkl','rb'))
